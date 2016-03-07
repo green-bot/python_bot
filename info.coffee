@@ -1,3 +1,5 @@
+#!/usr/bin/env coffee
+
 prompt = require 'prompt'
 Promise = require 'bluebird'
 Promise.promisifyAll prompt
