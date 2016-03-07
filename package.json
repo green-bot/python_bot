@@ -26,6 +26,7 @@
     "url": "https://github.com/green-bot/info_bot/issues"
   },
   "dependencies": {
-    "coffee": "3.2.1"
+    "coffee": "3.2.1",
+    "prompt": "1.0.0"
   }
 }
