@@ -1,11 +1,11 @@
 {
   "name": "info_bot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A bot that collects information from a user, built for green-bot.",
   "main": "index.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall":"mongoimport -d greenbot -c Scripts -h localhost -p 27017 bot.json"
+    "postinstall": "mongoimport -d greenbot -c Scripts -h localhost -p 27017 bot.json"
   },
   "repository": {
     "type": "git",
