@@ -1,6 +1,6 @@
 {
   "default_cmd": "coffee info.coffee",
-  "default_path": "scripts",
+  "default_path": "./node_modules/info_bot/",
   "default_settings": [
     {
       "name": "ADDRESS",
