@@ -1,0 +1,81 @@
+{
+  "name": "info_bot",
+  "version": "0.1.0",
+  "description": "A bot that collects information from a user, built for green-bot.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/green-bot/info_bot.git"
+  },
+  "bin" : {
+    "info_bot" : "coffee ./info.coffee"
+  },
+  "keywords": [
+    "green-bot",
+    "greenbot",
+    "bot",
+    "bashbot"
+  ],
+  "author": "Thomas Howe <ghostofbasho@gmail.com> (http://www.thomashowe.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/green-bot/info_bot/issues"
+  },
+  "bot": {
+    "default_cmd": "coffee info.coffee",
+    "default_path": "scripts",
+    "default_settings": [
+      {
+        "name": "ADDRESS",
+        "value": "You can also email us at matt.lukens@green-bot.com",
+        "type": "text"
+      },
+      {
+        "name": "AWAY",
+        "value": "false",
+        "type": "boolean"
+      },
+      {
+        "name": "HOURS",
+        "value": "We are open from 9 to 5 Monday through Friday",
+        "type": "text"
+      },
+      {
+        "name": "PROMPT_1",
+        "value": "Thank you for texting in and trying out KISST4INFO, a simple way for your customers to contact your business using text and social messaging.",
+        "type": "text"
+      },
+      {
+        "name": "PROMPT_2",
+        "value": "KISST4INFO responds on behalf of your team in real time, quickly and efficiently, delivering any kind of information, such as http://bit.ly/15GmEEr ",
+        "type": "text"
+      },
+      {
+        "name": "SIGNATURE",
+        "value": "Thank you, you can visit us on the web at http://www.green-bot.com",
+        "type": "text"
+      },
+      {
+        "name": "SPECIALS",
+        "value": "Do you want to become a dealer for KISST Services? Or do you want to use it for your business? Call or text 401-885-7764 to discuss your needs",
+        "type": "text"
+      }
+    ],
+    "desc": "A bot that collects information from a user, built for green-bot.",
+    "icon_class": "announcement",
+    "name": "information",
+    "owner_cmd": "",
+    "tags": [
+      "basic",
+      "retail",
+      "consumer"
+    ],
+    "short_desc": "A more programmable information script"
+  },
+  "dependencies": {
+    "coffee": "3.2.1"
+  }
+}
