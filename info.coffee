@@ -21,7 +21,7 @@ prompt.delimiter = ''
 
 recordAnswer = (key, value) ->
   answers[key] = value
-  console.log answers
+  console.log JSON.stringify answers
 
 
 # Submit the first two prompts
