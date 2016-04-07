@@ -1,6 +1,6 @@
 {
   "name": "python_bot",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "A sample bot written in Python",
   "main": "hello_world.py",
   "scripts": {
