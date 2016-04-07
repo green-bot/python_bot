@@ -1,7 +1,5 @@
 [
   {
-    "default_cmd": "python hello_world.py",
-    "default_path": "./node_modules/python_bot/",
     "default_settings": [
       {
         "name": "PROMPT_1",
@@ -19,6 +17,6 @@
       "python"
     ],
     "short_desc": "A sample bot written in Python, built for green-bot.",
-    "repo_link": "https://github.com/green-bot/info_bot.git"
+    "repo_link": "https://github.com/green-bot/python_bot.git"
   }
 ]
